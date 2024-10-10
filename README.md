@@ -22,16 +22,16 @@
 
 1. **Склонируйте репозиторий:**
 
-   ```bash
+   ```
    git clone https://github.com/your-repo/aiogram-docker-sample.git
    cd aiogram-docker-sample
 
 2. **Создайте файл с токенами:**
-    ```bash
+    ```
     В корне проекта создайте файл api_keys.txt, где каждый токен бота будет записан на новой строке:
 3. **Создайте Docker image:**
 Выполните команду, чтобы собрать Docker image для бота:
-    ```bash
+    ```
    docker build -t aiogram_bot_image .
    
 
@@ -39,22 +39,22 @@
 **Основные команды:**
 ### Запуск всех ботов:
 
-    ```bash
+    ```
     python run_bots.py
 
 ### Остановка всех ботов:
 
-    ```bash
+    ```
     python stop_bots.py
 
 ### Проверка активных контейнеров:
 
-    ```bash
+    ```
     docker ps
 
 ### Просмотр логов контейнера:
 
-    ```bash
+    ```
     docker logs <container_name>
 
 ### Остановка определённого контейнера:
