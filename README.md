@@ -34,7 +34,7 @@
 
 ## **Основные команды:**
 #### Запуск всех ботов:
-   `python run_bots.py`
+   ```python run_bots.py```
 
 #### Остановка всех ботов:
    `python stop_bots.py`
