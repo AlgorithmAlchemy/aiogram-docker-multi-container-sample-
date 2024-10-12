@@ -27,7 +27,7 @@
 
 2. **Создайте Docker image:**
 Выполните команду, чтобы собрать Docker image для бота:
-    ```bash
+    ```
    docker build -t aiogram_bot_image .
    
 
