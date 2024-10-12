@@ -24,11 +24,12 @@
    ```
    git clone https://github.com/your-repo/aiogram-docker-sample.git
    cd aiogram-docker-sample
+   ```
 
 2. **Создайте Docker image:**
 Выполните команду, чтобы собрать Docker image для бота:
     ```
-   docker build -t aiogram_bot_image .
+   docker build -t aiogram_bot_image
     ```
    
 
