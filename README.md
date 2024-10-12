@@ -15,7 +15,7 @@
 
 - Python 3.7+
 - Docker
-- Файл `api_keys.txt` с токенами ботов
+- Файл `api_keys.txt` с токенами telegram @botfather API-KEY ботов
 
 ## Установка
 
@@ -25,9 +25,7 @@
    git clone https://github.com/your-repo/aiogram-docker-sample.git
    cd aiogram-docker-sample
 
-2. **Создайте файл с токенами:**
-    В корне проекта создайте файл api_keys.txt, где каждый токен бота будет записан на новой строке:
-3. **Создайте Docker image:**
+2. **Создайте Docker image:**
 Выполните команду, чтобы собрать Docker image для бота:
     ```
    docker build -t aiogram_bot_image .
