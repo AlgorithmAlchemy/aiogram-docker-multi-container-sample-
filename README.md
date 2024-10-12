@@ -15,7 +15,7 @@
 
 - Python 3.7+
 - Docker
-- Файл `api_keys.txt` с токенами(API-KEY) ботов
+- Файл `api_keys.txt` с токенами ботов
 
 ## Установка
 
