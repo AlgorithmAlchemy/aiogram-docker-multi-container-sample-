@@ -34,24 +34,16 @@
 
 ## **Основные команды:**
 #### Запуск всех ботов:
-   `python run_bots.py .`
+   `python run_bots.py`
 
 #### Остановка всех ботов:
-
-    ````markdown
-    python stop_bots.py
+   `python stop_bots.py`
 
 #### Проверка активных контейнеров:
-
-    ```
-    docker ps
+   `docker ps`
 
 #### Просмотр логов контейнера:
-
-    ```
-    docker logs <container_name>
+   `docker logs <container_name>`
 
 #### Остановка определённого контейнера:
-
-    ```bash
-    docker stop <container_name>
+   `docker stop <container_name>`
