@@ -21,7 +21,7 @@
 
 1. **Склонируйте репозиторий:**
 
-   ```bash
+   ```
    git clone https://github.com/your-repo/aiogram-docker-sample.git
    cd aiogram-docker-sample
 
@@ -34,8 +34,8 @@
 
 ## **Основные команды:**
 #### Запуск всех ботов:
-      ```
-      python run_bots.py
+    ```
+    python run_bots.py
    
 
 #### Остановка всех ботов:
